@@ -20,11 +20,16 @@
     <!-- match_parent: se expande en toda la pantalla -->
     <!-- wrap_content: Utiliza lo necesario -->
 
-    <Button
+    <Button android:id="@+id/btnEnter"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Presionar"></Button>
+        android:text="Enter"></Button>
 
+    <Button android:id="@+id/btnAboutUs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="About Us"></Button>
+        
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
